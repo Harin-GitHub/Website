@@ -13,7 +13,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: 450;
-    font-size: 30px;
+    font-size: 45px;
     font-family: system-ui, -apple-system;
 
 }
@@ -34,6 +34,7 @@
     flex-basis: 30%;
     min-width: 100px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .Item img{
@@ -42,15 +43,16 @@
 
 .Item h2{
     color: white;
-    font-weight: 250;
+    font-weight: 150;
     font-family: system-ui, -apple-system;
+    text-align: center;
 }
 
 .btn{
-    color: white;
-    margin: 10px;
-    font-style: normal;
+    color: rgba(40,145,240,255);
+    text-decoration: none;
     font-family: system-ui, -apple-system;
+    font-weight: 150;
 }
 
 .cart{
@@ -67,10 +69,11 @@
 }
 
 .cart p{
-    font-weight: 400;
+    font-weight: 495;
     margin-bottom: 10px;
 }
 
 .cart li{
-    font-weight: 100;
+    font-weight: 250;
+    color: rgba(40,145,240,255);
 }
