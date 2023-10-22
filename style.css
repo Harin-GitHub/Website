@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.hedding{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 450;
+    font-size: 30px;
+    font-family: system-ui, -apple-system;
+
+}
+
+.Items{
+    margin: 70px 0;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Item{
+    flex-basis: 30%;
+    min-width: 100px;
+    margin-bottom: 30px;
+}
+
+.Item img{
+    width: 100%;
+}
+
+.Item h2{
+    color: white;
+    font-weight: 250;
+    font-family: system-ui, -apple-system;
+}
+
+.btn{
+    color: white;
+    margin: 10px;
+    font-style: normal;
+    font-family: system-ui, -apple-system;
+}
+
+.cart{
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cart img{
+    align-content: center;
+    margin: 0;
+}
+
+.cart p{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cart li{
+    font-weight: 100;
+}
